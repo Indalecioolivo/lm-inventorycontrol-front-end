@@ -1,0 +1,31 @@
+.user-container {
+  width: 10%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-container .initials {
+  width: 45%;
+  height: 90%;
+  border-radius: 100%;
+
+  background-color: #dedee9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-container .user-name-arrow {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
