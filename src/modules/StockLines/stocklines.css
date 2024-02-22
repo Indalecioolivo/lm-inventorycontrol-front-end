@@ -1,0 +1,15 @@
+.stocklines {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  cursor: pointer;
+}
+
+.stocklines strong {
+  width: 20%;
+}

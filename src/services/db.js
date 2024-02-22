@@ -1,0 +1,60 @@
+const db = [
+  {
+    id: 1,
+    bar_code: "21432891",
+    name: "Curly Active",
+    description: "produtu lindu",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 6,
+    bar_code: "2143289",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 7,
+    bar_code: "21432893",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 8,
+    bar_code: "21432894",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 9,
+    bar_code: "21432898",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 10,
+    bar_code: "214328989",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+  {
+    id: 11,
+    bar_code: "214328991",
+    name: "Curly Active Blond",
+    description: "pra enrola cabelinhu loiru",
+    volume: 300,
+    stock: 1000,
+  },
+];
+
+export default db;

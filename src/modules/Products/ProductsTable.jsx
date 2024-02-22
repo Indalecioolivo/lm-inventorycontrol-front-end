@@ -1,9 +1,9 @@
-import "./stocktable.css";
+import "./productstable.css";
 import StockIcon from "../../assets/stock-icon.png";
 import db from "../../services/db";
 import StockLines from "../StockLines/StockLines";
 
-export default function StockTable() {
+export default function ProductsTable() {
   return (
     <div className="stocktable-container">
       <div className="header-stocktable">
@@ -18,16 +18,6 @@ export default function StockTable() {
           <strong>Descrição</strong>
           <strong>Código de Barras</strong>
         </div>
-        {db.map((product) => (
-          <StockLines
-            key={product.id}
-            barcode={product.bar_code}
-            description={product.description}
-            name={product.name}
-            stock={product.stock}
-            volume={product.stock}
-          />
-        ))}
       </div>
     </div>
   );

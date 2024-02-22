@@ -6,7 +6,7 @@ export default function User() {
   return (
     <div className="user-container">
       <div className="initials">
-        <h2>LM</h2>
+        <h3>LM</h3>
       </div>
       <div className="user-name-arrow">
         <h3>Lucio</h3>
