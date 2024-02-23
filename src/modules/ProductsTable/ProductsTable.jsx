@@ -1,5 +1,5 @@
 import "./productstable.css";
-import db from "../../services/db";
+import { db } from "../../services/db";
 import ProductTableIcon from "../../assets/producttable-icon.png";
 import ProductLine from "../ProductsLine/ProductLine";
 
@@ -20,6 +20,7 @@ export default function ProductsTable() {
         </div>
         {db.map((product) => (
           <ProductLine
+            key={product.id}
             name={product.name}
             volume={product.volume}
             description={product.description}

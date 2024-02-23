@@ -1,12 +1,10 @@
 .producttable-container {
-  border: 1px solid black;
   width: 100%;
   height: 90%;
   padding-left: 6%;
 }
 
 .producttable-container .header-producttable {
-  border: 1px solid black;
   width: 88%;
   height: 11%;
 
@@ -21,7 +19,7 @@
 .producttable-container .content-producttable {
   width: 88%;
   height: 80%;
-  border: 1px solid black;
+
   display: flex;
   flex-direction: column;
 }
@@ -29,8 +27,6 @@
 .producttable-container .content-producttable .columns-names {
   width: 100%;
   height: 40px;
-
-  border: 1px solid black;
 
   display: flex;
   align-items: center;

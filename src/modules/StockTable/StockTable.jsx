@@ -1,6 +1,6 @@
 import "./stocktable.css";
 import StockIcon from "../../assets/stock-icon.png";
-import db from "../../services/db";
+import { db } from "../../services/db";
 import StockLines from "../StockLines/StockLines";
 
 export default function StockTable() {
