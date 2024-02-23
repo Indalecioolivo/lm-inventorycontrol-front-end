@@ -7,19 +7,31 @@ export function useHomeContext() {
 }
 
 export function HomeContextProvider({ children }) {
+  const [userOptions, setUserOptions] = useState(false);
   const [contentStock, setContentStock] = useState(true);
   const [contentProducts, setContentProducts] = useState(false);
   const [contentFlow, setContentFlow] = useState(false);
 
+  function handleUserOptions() {
+    setUserOptions(!userOptions);
+  }
+
   function handleHomeContent(selectedContent) {
-    console.log(selectedContent);
     setContentStock(selectedContent === "home");
     setContentProducts(selectedContent === "products");
     setContentFlow(selectedContent === "flow");
   }
   return (
     <HomeContext.Provider
-      value={{ contentStock, contentProducts, contentFlow, handleHomeContent }}
+      value={{
+        userOptions,
+        handleUserOptions,
+        setUserOptions,
+        contentStock,
+        contentProducts,
+        contentFlow,
+        handleHomeContent,
+      }}
     >
       {children}
     </HomeContext.Provider>
