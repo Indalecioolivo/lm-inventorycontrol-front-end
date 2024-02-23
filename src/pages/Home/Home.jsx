@@ -3,7 +3,7 @@ import SideBar from "../../modules/SideBar/SideBar";
 import Header from "../../modules/Header/Header";
 import ModalEditUser from "../../modules/ModalEditUser/ModalEditUser";
 import StockTable from "../../modules/StockTable/StockTable";
-import ProductsTable from "../../modules/Products/ProductsTable";
+import ProductsTable from "../../modules/ProductsTable/ProductsTable";
 import db from "../../services/db";
 
 export default function Home() {

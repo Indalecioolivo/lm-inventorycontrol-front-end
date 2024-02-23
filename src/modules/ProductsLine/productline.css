@@ -1,0 +1,33 @@
+.productlines {
+  width: 100%;
+  height: 10%;
+
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+}
+
+.productlines .photo {
+  width: 54px;
+  height: 54px;
+}
+
+.productlines .linecolumn {
+  width: 20%;
+  height: auto;
+  border: 1px solid green;
+
+  display: flex;
+  align-items: center;
+}
+
+.productlines .tophoto {
+  width: 20%;
+  height: auto;
+  border: 1px solid green;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

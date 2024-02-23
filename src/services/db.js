@@ -6,6 +6,7 @@ const db = [
     description: "produtu lindu",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 6,
@@ -14,6 +15,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 7,
@@ -22,6 +24,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 8,
@@ -30,6 +33,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 9,
@@ -38,6 +42,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 10,
@@ -46,6 +51,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
   {
     id: 11,
@@ -54,6 +60,7 @@ const db = [
     description: "pra enrola cabelinhu loiru",
     volume: 300,
     stock: 1000,
+    price: 300,
   },
 ];
 
