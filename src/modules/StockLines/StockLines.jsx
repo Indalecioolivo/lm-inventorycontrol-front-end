@@ -9,11 +9,11 @@ export default function StockLines({
 }) {
   return (
     <div className="stocklines">
-      <strong>{name}</strong>
-      <strong>{volume}</strong>
-      <strong>{stock}</strong>
-      <strong>{description}</strong>
-      <strong>{barcode}</strong>
+      <p>{name}</p>
+      <p>{volume}</p>
+      <p>{stock}</p>
+      <p>{description}</p>
+      <p>{barcode}</p>
     </div>
   );
 }

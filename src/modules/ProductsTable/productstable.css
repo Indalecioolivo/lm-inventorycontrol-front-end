@@ -14,6 +14,9 @@
   align-items: center;
   gap: 15px;
 }
+.producttable-container .header-producttable h1 {
+  font-family: "Montserrat";
+}
 
 .producttable-container .content-producttable {
   width: 88%;
@@ -40,4 +43,6 @@
 
   display: flex;
   align-items: center;
+
+  font-family: "Nunito";
 }

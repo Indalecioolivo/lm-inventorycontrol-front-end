@@ -7,10 +7,10 @@ export default function ProductLine({ name, volume, description, price }) {
       <div className="tophoto">
         <img src={PhotoIcon} alt="" className="photo" />
       </div>
-      <strong className="linecolumn">{name}</strong>
-      <strong className="linecolumn">{volume}</strong>
-      <strong className="linecolumn">{description}</strong>
-      <strong className="linecolumn">{price}</strong>
+      <p className="linecolumn">{name}</p>
+      <p className="linecolumn">{volume}</p>
+      <p className="linecolumn">{description}</p>
+      <p className="linecolumn">{price}</p>
     </div>
   );
 }

@@ -7,15 +7,15 @@ import ProductsTable from "../../modules/ProductsTable/ProductsTable";
 import db from "../../services/db";
 
 export default function Home() {
-  console.log(db);
   return (
     <div className="home-container">
       {/* <ModalEditUser /> */}
       <SideBar />
       <div className="content">
         <Header title={"Home"} />
-        {/* <StockTable /> */}
-        <ProductsTable />
+        <hr />
+        <StockTable />
+        {/* <ProductsTable /> */}
       </div>
     </div>
   );

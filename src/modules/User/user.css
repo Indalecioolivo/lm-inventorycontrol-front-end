@@ -1,5 +1,5 @@
 .user-container {
-  width: 10%;
+  width: 12%;
   height: 100%;
 
   display: flex;
@@ -7,6 +7,10 @@
   justify-content: space-between;
 
   cursor: pointer;
+}
+
+.user-container h3 {
+  font-family: "Montserrat";
 }
 
 .user-container .initials {
