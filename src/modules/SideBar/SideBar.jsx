@@ -2,6 +2,7 @@ import "./sidebar.css";
 import { Link } from "react-router-dom";
 import HomeIcon from "../../assets/home-icon.png";
 import ProductIcon from "../../assets/product-icon.png";
+import FlowIcon from "../../assets/flow-icon.png";
 
 export default function SideBar() {
   return (
@@ -13,6 +14,10 @@ export default function SideBar() {
       <Link className="link">
         <img src={ProductIcon} alt="" />
         <p>Produtos</p>
+      </Link>
+      <Link className="link">
+        <img src={FlowIcon} alt="" />
+        <p>Fluxo</p>
       </Link>
     </div>
   );

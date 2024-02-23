@@ -1,0 +1,18 @@
+.flow-line {
+  width: 95%;
+  height: 5%;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flow-line p {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

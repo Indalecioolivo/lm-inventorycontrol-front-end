@@ -64,4 +64,28 @@ const db = [
   },
 ];
 
-export default db;
+const flowdb = [
+  {
+    name: "curly",
+    stock: 1000,
+    data: "23/02/2024",
+    type: "Produção",
+    bar_code: "1234567891234",
+  },
+  {
+    name: "curly",
+    stock: 1000,
+    data: "23/02/2024",
+    type: "Produção",
+    bar_code: "1234567891236",
+  },
+  {
+    name: "curly",
+    stock: 1000,
+    data: "23/02/2024",
+    type: "Produção",
+    bar_code: "1234567891235",
+  },
+];
+
+export { db, flowdb };
