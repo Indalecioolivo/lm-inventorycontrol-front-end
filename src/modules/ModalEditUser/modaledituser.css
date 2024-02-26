@@ -63,10 +63,14 @@
   border-radius: 8px;
 
   color: whitesmoke;
-  background-color: #0e8750;
+  background-color: #3a9ff1;
 
   font-size: medium;
   cursor: pointer;
+}
+
+.background-container .modal-container form .button-confirm:hover {
+  background-color: #64b2f1;
 }
 
 .background-container .modal-container form div {

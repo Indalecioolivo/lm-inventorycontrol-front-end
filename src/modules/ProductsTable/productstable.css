@@ -10,10 +10,77 @@
 
   display: flex;
   align-items: center;
+}
+
+.producttable-container .header-producttable .for-title {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
   gap: 15px;
 }
-.producttable-container .header-producttable h1 {
+
+.producttable-container .header-producttable .for-title h1 {
   font-family: "Montserrat";
+}
+
+.producttable-container .header-producttable .for-button-and-search {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.producttable-container
+  .header-producttable
+  .for-button-and-search
+  .add-product {
+  width: 248px;
+  height: 36px;
+
+  background-color: #3a9ff1;
+  color: white;
+
+  border-style: none;
+  border-radius: 8px;
+
+  font-family: "Nunito";
+  cursor: pointer;
+}
+.producttable-container
+  .header-producttable
+  .for-button-and-search
+  .add-product:hover {
+  background-color: #64b2f1;
+}
+
+.producttable-container .header-producttable .for-button-and-search .search {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 8px;
+}
+
+.producttable-container
+  .header-producttable
+  .for-button-and-search
+  .search
+  img {
+  width: 34px;
+  height: 34px;
+}
+
+.producttable-container .header-producttable .for-button-and-search input {
+  height: 34px;
+  width: 80%;
+  padding-left: 4px;
+
+  font-size: 24px;
 }
 
 .producttable-container .content-producttable {
