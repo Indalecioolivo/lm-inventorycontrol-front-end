@@ -10,7 +10,68 @@
 
   display: flex;
   align-items: center;
+}
+
+.stockflow-container .header-stockflow .for-title {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
   gap: 15px;
+}
+
+.stockflow-container .header-stockflow .for-title h1 {
+  font-family: "Montserrat";
+}
+.stockflow-container .header-stockflow .for-button-and-search {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stockflow-container .header-stockflow .for-button-and-search .add-flow {
+  width: 248px;
+  height: 36px;
+
+  background-color: #3a9ff1;
+  color: white;
+
+  border-style: none;
+  border-radius: 8px;
+
+  font-family: "Nunito";
+  font-size: medium;
+  cursor: pointer;
+}
+
+.stockflow-container .header-stockflow .for-button-and-search .add-flow:hover {
+  background-color: #64b2f1;
+}
+
+.stockflow-container .header-stockflow .for-button-and-search .search {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 8px;
+}
+
+.stockflow-container .header-stockflow .for-button-and-search .search img {
+  width: 34px;
+  height: 34px;
+}
+
+.stockflow-container .header-stockflow .for-button-and-search .search input {
+  height: 34px;
+  width: 80%;
+  padding-left: 4px;
+
+  font-size: 24px;
 }
 
 .stockflow-container .stockflow-content {

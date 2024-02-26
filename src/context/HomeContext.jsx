@@ -10,6 +10,7 @@ export function HomeContextProvider({ children }) {
   const [userOptions, setUserOptions] = useState(false);
   const [showModalEditUser, setShowModalEditUser] = useState(false);
   const [showModalAddProduct, setShowModalAddProduct] = useState(false);
+  const [showModalAddFlow, setShowModalAddFlow] = useState(false);
   const [contentStock, setContentStock] = useState(true);
   const [contentProducts, setContentProducts] = useState(false);
   const [contentFlow, setContentFlow] = useState(false);
@@ -31,6 +32,10 @@ export function HomeContextProvider({ children }) {
     return setShowModalAddProduct(e);
   }
 
+  function handleModalAddFlow(e) {
+    return setShowModalAddFlow(e);
+  }
+
   function handleHomeContent(selectedContent) {
     setContentStock(selectedContent === "home");
     setContentProducts(selectedContent === "products");
@@ -50,6 +55,8 @@ export function HomeContextProvider({ children }) {
         handleModalAddProduct,
         showModalEditUser,
         handleModalEditUser,
+        showModalAddFlow,
+        handleModalAddFlow,
       }}
     >
       {children}

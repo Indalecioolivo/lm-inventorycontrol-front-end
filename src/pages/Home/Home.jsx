@@ -3,6 +3,7 @@ import SideBar from "../../modules/SideBar/SideBar";
 import Header from "../../modules/Header/Header";
 import ModalEditUser from "../../modules/ModalEditUser/ModalEditUser";
 import ModalAddProduct from "../../modules/ModalAddProduct/ModalAddProduct";
+import ModalAddFlow from "../../modules/ModalAddFlow/ModalAddFlow";
 import StockTable from "../../modules/StockTable/StockTable";
 import ProductsTable from "../../modules/ProductsTable/ProductsTable";
 import StockFlow from "../../modules/StockFlow/StockFlow";
@@ -15,11 +16,13 @@ export default function Home() {
     contentStock,
     contentProducts,
     contentFlow,
+    showModalAddFlow,
   } = useHomeContext();
   return (
     <div className="home-container">
       {showModalEditUser ? <ModalEditUser /> : ""}
       {showModalAddProduct ? <ModalAddProduct /> : ""}
+      {showModalAddFlow ? <ModalAddFlow /> : ""}
       <SideBar />
       <div className="content">
         <Header title={"Home"} />
