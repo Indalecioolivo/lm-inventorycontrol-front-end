@@ -1,11 +1,17 @@
 import CloseIcon from "../../assets/close-icon.png";
 import "./modaladdproduct.css";
+import { useHomeContext } from "../../context/HomeContext";
 
 export default function ModalAddProduct() {
+  const { handleModalAddProduct } = useHomeContext();
   return (
     <div className="background-container">
       <div className="modal-add-product">
-        <img src={CloseIcon} alt="" />
+        <img
+          src={CloseIcon}
+          alt=""
+          onClick={(e) => handleModalAddProduct(false)}
+        />
         <h1>Cadastrar Produto</h1>
         <form>
           <div className="for-inputs">

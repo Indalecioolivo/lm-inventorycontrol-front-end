@@ -1,13 +1,20 @@
 import "./modaledituser.css";
 import CloseIcon from "../../assets/close-icon.png";
+import { useHomeContext } from "../../context/HomeContext";
 
 export default function ModalEditUser() {
+  const { handleModalEditUser } = useHomeContext();
   return (
     <div className="background-container">
       <div className="modal-container">
         <div className="header-modal">
           <h2>Editar Usuário</h2>
-          <img src={CloseIcon} alt="" className="close-icon" />
+          <img
+            src={CloseIcon}
+            alt=""
+            className="close-icon"
+            onClick={(e) => handleModalEditUser(false)}
+          />
         </div>
         <form>
           <div>

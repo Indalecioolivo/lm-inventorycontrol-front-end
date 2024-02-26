@@ -3,8 +3,10 @@ import { db } from "../../services/db";
 import ProductTableIcon from "../../assets/producttable-icon.png";
 import SearchIcon from "../../assets/search-icon.png";
 import ProductLine from "../ProductsLine/ProductLine";
+import { useHomeContext } from "../../context/HomeContext";
 
 export default function ProductsTable() {
+  const { handleModalAddProduct } = useHomeContext();
   return (
     <div className="producttable-container">
       <div className="header-producttable">
@@ -13,7 +15,12 @@ export default function ProductsTable() {
           <h1>Produtos</h1>
         </div>
         <div className="for-button-and-search">
-          <button className="add-product">Novo Produto</button>
+          <button
+            className="add-product"
+            onClick={(e) => handleModalAddProduct(true)}
+          >
+            Novo Produto
+          </button>
           <div className="search">
             <img src={SearchIcon} alt="" />
             <input type="text" />

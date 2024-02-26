@@ -9,11 +9,17 @@ import StockFlow from "../../modules/StockFlow/StockFlow";
 import { useHomeContext } from "../../context/HomeContext";
 
 export default function Home() {
-  const { contentStock, contentProducts, contentFlow } = useHomeContext();
+  const {
+    showModalEditUser,
+    showModalAddProduct,
+    contentStock,
+    contentProducts,
+    contentFlow,
+  } = useHomeContext();
   return (
     <div className="home-container">
-      {/* <ModalEditUser /> */}
-      <ModalAddProduct />
+      {showModalEditUser ? <ModalEditUser /> : ""}
+      {showModalAddProduct ? <ModalAddProduct /> : ""}
       <SideBar />
       <div className="content">
         <Header title={"Home"} />
