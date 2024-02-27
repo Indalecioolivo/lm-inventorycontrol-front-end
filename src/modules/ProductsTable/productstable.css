@@ -51,6 +51,7 @@
   font-size: medium;
   cursor: pointer;
 }
+
 .producttable-container
   .header-producttable
   .for-button-and-search
@@ -87,6 +88,8 @@
 .producttable-container .content-producttable {
   width: 88%;
   height: 80%;
+
+  overflow-y: scroll;
 
   display: flex;
   flex-direction: column;

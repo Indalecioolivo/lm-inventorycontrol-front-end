@@ -1,6 +1,8 @@
 .productlines {
   width: 100%;
   height: 10%;
+  min-height: 70px;
+  max-height: 70px;
 
   display: flex;
   align-items: center;
