@@ -1,6 +1,9 @@
 .stocklines {
   width: 100%;
-  height: 40px;
+  min-height: 70px;
+  max-height: 70px;
+
+  border-bottom: 1px solid lightgray;
 
   display: flex;
   align-items: center;
